@@ -23,12 +23,15 @@
               <p class = "product-price-tag">$<span id = "dyn-price">0.00</span></p>
               <p id = "dyn-description">Fetching item specification, please wait...</p>
               <div class="action-buttons-row">
-                <button class = "add-to-cart-btn"><i class = "fa-solid fa-bag-shopping"></i>Add to Cart</button>
-                <button class="favourite-btn"><i class = "fa-regular fa-heart"></i></button>
+                <button class = "add-to-cart-btn"><i class = "fa-solid fa-bag-shopping"></i> Add to Cart</button>
+                <button class="favourite-btn" style = "color: rgb(213, 29, 29);"><i class = "fa-regular fa-heart"></i></button>
               </div>
               <hr class = "section-divisor">
               <section class = "customer-reviews-block">
-                <h2>Customer Feedback</h2>
+                <div class = "flex between item-center mt-3" style = "margin-bottom: 1.5rem; width:100%">
+                  <h3 style = "margin: 0; font-size: 1.4rem;">Customer Feedback</h3>
+                  <button id = "write-review-btn" class = "btn brown-bg" style = "cursor: pointer;padding: 0.6rem 1.2rem;border-radius: 30px; border: none;background-color: #c99c62;font-weight: 500;">Write a Review</button>
+                </div>
                 <div id = "comments-box"></div>
               </section>
         </section>
