@@ -3,7 +3,7 @@ const productCatalog = {
     "seating" : {
         title : "Minimalist Lounge Chair",
         price :"299",
-        description:"An elegant Scandinavian-style lounge chair featuring an ergonomic woven seat resting on a prenium , hand-sanded ash wood frame.Blendsseamlessly into bright, modern spaces.",
+        description:"An elegant Scandinavian-style lounge chair featuring an ergonomic woven seat resting on a premium , hand-sanded ash wood frame.Blends seamlessly into bright, modern spaces.",
         image:"images/lounge_chair.png",
         rating: 5,
         ratingNum:"5.0",

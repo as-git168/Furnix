@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furnix-Prenium Product Details</title>
     <link rel = "stylesheet" href = "product-detail.css">
+    <link rel = "stylesheet" href = "style.css">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar flex between wrapper">
+            <a href="#" class="logo">Furnix.</a>
+  </header>
     <main class = "product-detail-page">
         <section class = "image-gallery-side">
           <div class = "product-hero-image">
@@ -24,7 +29,7 @@
               <p id = "dyn-description">Fetching item specification, please wait...</p>
               <div class="action-buttons-row">
                 <button class = "add-to-cart-btn"><i class = "fa-solid fa-bag-shopping"></i> Add to Cart</button>
-                <button class="favourite-btn" style = "color: rgb(213, 29, 29);"><i class = "fa-regular fa-heart"></i></button>
+                <button class="wishlist-btn" aria-label = "Add to Wishlist"><i class = "fa-regular fa-heart"></i></button>
               </div>
               <hr class = "section-divisor">
               <section class = "customer-reviews-block">
